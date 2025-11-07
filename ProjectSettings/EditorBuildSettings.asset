@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/grodyngel.unity
     guid: 0f8c167d444847947ab224981a593552
+  - enabled: 1
+    path: Assets/Scenes/JoelProject.unity
+    guid: 5cbf2ceda5acd5d4ea877b608f539167
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

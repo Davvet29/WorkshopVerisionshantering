@@ -2098,6 +2098,7 @@ GameObject:
   - component: {fileID: 1403800126}
   - component: {fileID: 1403800125}
   - component: {fileID: 1403800124}
+  - component: {fileID: 1403800128}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -2221,6 +2222,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403800122}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1403800128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403800122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b04f8f7f7737446833dee073217ff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ball: {fileID: 1403800122}
 --- !u!1 &1425302068 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 6b362e38b67ac414b8ca1844fdda5c39, type: 3}
@@ -3211,6 +3225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1938399448}
+  - component: {fileID: 1938399449}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -3236,6 +3251,18 @@ Transform:
   - {fileID: 832575519}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1938399449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938399447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35bf21ca1d799814ebe9943c7b09ef3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1964602097
 GameObject:
   m_ObjectHideFlags: 0
